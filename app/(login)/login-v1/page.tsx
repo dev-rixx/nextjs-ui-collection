@@ -14,7 +14,7 @@ export default function Login() {
   return (
     <main className="relative min-h-screen flex items-center justify-center bg-black overflow-hidden">
       <Image
-        src="/robot-bg.png"
+        src="/login/robot.png"
         alt="bg"
         fill
         className="object-contain opacity-40 scale-110"
@@ -49,7 +49,7 @@ export default function Login() {
           {/* Left Image */}
           <div>
             <Image
-              src="/robot-bg.png"
+              src="/login/robot.png"
               alt="robot"
               width={400}
               height={400}
