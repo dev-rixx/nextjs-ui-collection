@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <main className="h-screen flex justify-center items-center relative">
-      <div className="absolute inset-0 bg-gradient-to-br from-red-900/15 via-red/10 to-transparent z-10" />
+      <div className="absolute inset-0 bg-linear-to-br from-red-900/15 via-red/10 to-transparent z-10" />
 
       <div className="relative w-[1280px] h-[650px] mx-auto  rounded-2xl overflow-hidden bg-[#0c0c0c] border border-white/10 shadow-2xl">
         <nav className="absolute top-10 left-14 right-14 flex items-center justify-between text-white z-20">
